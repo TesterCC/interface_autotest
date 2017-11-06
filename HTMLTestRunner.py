@@ -679,12 +679,12 @@ class HTMLTestRunner(Template_mixin):
         report = self._generate_report(result)
         ending = self._generate_ending()
         output = self.HTML_TMPL % dict(
-            title = saxutils.escape(self.title),
-            generator = generator,
-            stylesheet = stylesheet,
-            heading = heading,
-            report = report,
-            ending = ending,
+            title=saxutils.escape(self.title),
+            generator=generator,
+            stylesheet=stylesheet,
+            heading=heading,
+            report=report,
+            ending=ending,
         )
         self.stream.write(output.encode('utf8'))
 
