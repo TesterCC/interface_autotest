@@ -6,7 +6,7 @@
 
 ## Environment
 * Python 3.5.X + Django 1.10.3 , etc.
-    *  Can run in windows7 and MacOSX.
+    *  Can run in MacOSX.
     *  Recommend use virtualenv manage virtual environment
 * All 3rd Party package please check requirements.txt
 
